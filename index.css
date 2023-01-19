@@ -16,6 +16,10 @@ body {
 
 }
 
+.gallery{
+    padding: 10px
+}
+
 ul {
     display: flex;
 }
@@ -192,11 +196,13 @@ a {
 
 
     .footer {
+        position: sticky;
+
         display: flex;
         justify-content: center;
         margin-top: 1600px;
         background-color: rgb(7, 7, 7);
-        position: sticky;
+
     }
 
     .footer p {
@@ -239,5 +245,8 @@ a {
         margin-top: 54px;
     }
     
-
+    .gallery{
+        padding: 10px
+    }
+    
 }
