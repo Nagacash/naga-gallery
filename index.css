@@ -16,7 +16,7 @@ body {
 
 }
 
-.gallery{
+.gallery {
     padding: 10px
 }
 
@@ -152,7 +152,7 @@ a {
         position: relative;
         bottom: 0;
     }
-} 
+}
 
 
 @media only screen and (max-width: 675px) {
@@ -175,10 +175,10 @@ a {
 
     }
 
-   .gallery{
+    .gallery {
         margin-top: -60px;
         padding: 30px;
-    } 
+    }
 
     .extra-item {
         display: none;
@@ -186,6 +186,7 @@ a {
 
     .container {
         width: 100%;
+        display: flex;
     }
 
     .row .container:focus,
@@ -201,11 +202,11 @@ a {
 
 
     .footer {
-    margin-top: 2070px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(7, 7, 7);
-    width: 400px;
+        margin-top: 2070px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(7, 7, 7);
+        width: 400px;
     }
 
     .footer p {
@@ -227,10 +228,13 @@ a {
         font-size: 25px;
         margin-bottom: 5px;
         text-align: center;
-        background-color: rgb(46, 130, 204);
+        background-color: rgb(14, 13, 13);
         opacity: 0.7;
         font-style: italic;
-        
+        border-style: dotted;
+        box-sizing: content-box;
+        box-shadow: inset;
+
     }
 
     .logo {
@@ -252,13 +256,13 @@ a {
     .producto {
         margin-top: 54px;
     }
-    
-    .gallery{
+
+    .gallery {
         padding: 20px;
         text-align: center;
     }
 
-    .amazon{
+    .amazon {
         display: flex;
         justify-content: center;
         padding-bottom: 5px;
@@ -266,29 +270,28 @@ a {
         width: auto;
 
     }
-    
-    .amazonn{
+
+    .amazonn {
         padding: 20px;
-    
+
     }
 
-    .scll{
+    .scll {
         display: none;
     }
-    
-    .aquire{
+
+    .aquire {
         text-align: center;
         padding: 10px;
         background-color: rgb(46, 130, 204);
         opacity: 0.7;
         font-style: italic;
         color: white
-
     }
-    
+
 }
 
-.amazon{
+.amazon {
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
@@ -296,11 +299,11 @@ a {
 
 }
 
-.amazonn{
+.amazonn {
     padding: 20px;
 
 }
 
-.aquire{
+.aquire {
     text-align: center;
 }
