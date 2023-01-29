@@ -175,6 +175,11 @@ a {
 
     }
 
+   .gallery{
+        margin-top: -60px;
+        padding: 30px;
+    } 
+
     .extra-item {
         display: none;
     }
@@ -191,7 +196,7 @@ a {
 
     .spacer {
         /* background-color: rgb(15, 15, 15); */
-        padding-top: 140px;
+        padding-top: 150px;
     }
 
 
@@ -219,7 +224,7 @@ a {
     .aii {
         margin-top: 84px;
         color: rgb(235, 235, 229);
-        font-size: 15px;
+        font-size: 25px;
         margin-bottom: 5px;
         text-align: center;
         background-color: rgb(46, 130, 204);
