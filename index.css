@@ -186,7 +186,7 @@ a {
 
     .container {
         width: 100%;
-        display: flex;
+        display: absolute;
     }
 
     .row .container:focus,
