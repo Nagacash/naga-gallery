@@ -217,11 +217,14 @@ a {
     }
 
     .aii {
-        margin-top: 44px;
-        color: rgb(10, 10, 9);
-        font-size: 20px;
+        margin-top: 84px;
+        color: rgb(235, 235, 229);
+        font-size: 15px;
         margin-bottom: 5px;
         text-align: center;
+        background-color: rgb(46, 130, 204);
+        opacity: 0.7;
+        font-style: italic;
         
     }
 
@@ -246,7 +249,8 @@ a {
     }
     
     .gallery{
-        padding: 10px
+        padding: 20px;
+        text-align: center;
     }
 
     .amazon{
