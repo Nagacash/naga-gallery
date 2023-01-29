@@ -262,6 +262,10 @@ a {
         padding: 20px;
     
     }
+
+    .scll{
+        display: none;
+    }
     
     .aquire{
         text-align: center;
