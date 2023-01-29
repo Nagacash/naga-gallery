@@ -112,10 +112,10 @@ a {
 }
 
 .aii {
-    margin-top: 244px;
+    margin-top: 204px;
     color: rgb(10, 10, 9);
     font-size: 44px;
-    margin-bottom: -5px;
+    margin-bottom: -65px;
     text-align: center;
 }
 
@@ -124,7 +124,7 @@ a {
     justify-content: center;
     padding: -10px 0;
     width: 100%;
-    margin-top: 1300px;
+    margin-top: 1600px;
     font-size: 30px;
     background-color: rgb(13, 13, 12);
 }
@@ -196,11 +196,10 @@ a {
 
 
     .footer {
-        position: sticky;
-
+        position: absolute;
+ padding-bottom: 10px;
         display: flex;
         justify-content: center;
-        margin-top: 1600px;
         background-color: rgb(7, 7, 7);
 
     }
@@ -249,4 +248,21 @@ a {
         padding: 10px
     }
     
+}
+
+.amazon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    background-color: rgb(218, 171, 42);
+
+}
+
+.amazonn{
+    padding: 20px;
+
+}
+
+.aquire{
+    text-align: center;
 }
